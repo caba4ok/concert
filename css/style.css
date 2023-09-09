@@ -1,0 +1,766 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Overpass', sans-serif;
+}
+.start {
+    background-image: url(/img/Background_stars.jpg);
+    background-size: cover;
+    padding-top: 256px;
+    padding-bottom: 305px;
+}
+
+.start .wrapper {
+    display: flex;
+    column-gap: 60px;
+}
+
+.wrapper {
+    width: 81%;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 79px;
+    color: #8bd876;
+    font-weight: 400;
+    font-family: "Overpass";
+    text-align: left;
+}
+
+.invitation-info {
+    font-size: 14px;
+    line-height: 19px;
+    color: #e5e5e5;
+    font-weight: 300;
+    font-family: "Overpass";
+    text-align: left;
+}
+
+.invitation-info p {
+    margin-bottom: 30px;
+}
+
+.button {
+    display: inline-block;
+    transition: 0.5s;
+    padding: 5px 13px;
+    border-radius: 17px;
+    border: 3px solid #8bd976;
+    font-size: 17px;
+    line-height: 22px;
+    color: #8bd976;
+    font-weight: 400;
+    text-align: center;
+    text-decoration: none;
+    margin-right: 13px;
+}
+
+.button:hover {
+    color: #000000;
+    background-color: #8bd976;
+}
+
+
+.data {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 45px;
+    align-content: flex-end;
+    row-gap: 35px;
+}
+
+.invitation-data h2 {
+    font-size: 35px;
+    color: #8bd876;
+    font-weight: 400;
+    font-family: "Overpass";
+}
+
+.invitation-data p {
+    color: white;
+}
+
+.invitation-data {
+    width: 40%;
+}
+
+.tour-description {
+    width: 50%;
+}
+
+.nutshell {
+    font-size: 79px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Overpass";
+}
+
+.tour {
+    padding: 200px 0;
+    background: url(/img/Background_green.png);
+}
+
+.tour .wrapper {
+    column-gap: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.invitation-time {
+    width: 50%;
+}
+
+.invitation-time hr {
+    border: 2px solid #000000;
+    margin: 40px 0px;
+}
+
+.date time {
+    font-size: 35px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Overpass";
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.date p {
+    color: #000000;
+    font-weight: 300;
+    font-family: "Overpass";
+    text-align: left;
+}
+
+.top_artists {
+    background: url(/img/bg_top_artists.jpg);
+    background-size: cover;
+    padding: 178px 0;
+}
+
+.the_top_artists h2 {
+    font-size: 79px;
+    color: #8bd876;
+    font-weight: 400;
+    font-family: "Overpass";
+    text-align: center;
+}
+
+.the_top_artists p {
+    font-size: 14px;
+    color: #e5e5e5;
+    font-weight: 300;
+    font-family: "Overpass";
+    text-align: center;
+    margin: 0 auto 111px;
+    width: 40%;
+}
+
+.artists {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 80px;
+    row-gap: 81px;
+}
+
+.artists figure {
+    width: 45%;
+}
+
+.artists figcaption {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    row-gap: 33px;
+}
+
+.artists img {
+    width: 100%;
+}
+
+.artists h2 {
+    font-size: 35px;
+    color: #8bd876;
+    font-weight: 400;
+    font-family: "Overpass";
+    text-align: left;
+}
+
+.artists p {
+    font-size: 17px;
+    color: #8bd976;
+    font-weight: 400;
+    font-family: "Overpass";
+}
+
+.artists time {
+    display: block;
+    font-size: 14px;
+    color: #e5e5e5;
+    font-weight: 300;
+    font-family: "Overpass";
+}
+
+.news {
+    background: url(/img/green_background.png);
+    background-size: cover;
+    padding: 186px 0;
+}
+
+.news .wrapper {
+    display: flex;
+    align-items: center;
+
+}
+
+.news img,
+.news-desc {
+    width: 50%;
+}
+
+.news-desc {
+    padding-left: 85px;
+}
+
+.news h2 {
+    font-size: 79px;
+    font-family: "Overpass";
+}
+
+.news p {
+    margin-bottom: 30px;
+}
+
+.tickets,
+.learn_more {
+    display: inline-block;
+    padding: 11px 17px 8px;
+    transition: 0.5s;
+    border-radius: 25px;
+    background-color: #000000;
+    border: 3px solid #000000;
+    font-size: 17px;
+    line-height: 22px;
+    color: #e5e5e5;
+    font-weight: 400;
+    font-family: "Overpass";
+    text-align: center;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+.learn_more {
+    background-color: transparent;
+    color: #000000;
+}
+
+.tickets:hover {
+    background-color: transparent;
+    color: #000000;
+}
+
+.learn_more:hover {
+    background-color: #000000;
+    color: #e5e5e5;
+}
+
+.featured {
+    padding: 92px 0;
+    background: url(/img/bg_shop.jpg);
+    background-size: cover;
+}
+
+.anons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 77px;
+}
+
+.anons p {
+    width: 25%;
+    color: #e5e5e5;
+}
+
+.featured-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.featured-desc {
+    width: 50%;
+}
+
+.featured-desc h2 {
+    font-size: 79px;
+    color: #8bd876;
+    font-family: "Overpass";
+}
+
+.featured-desc p {
+    color: #e5e5e5;
+    margin-bottom: 50px;
+}
+
+.featured-desc a {
+    display: inline-block;
+    padding: 8px 20px;
+    transition: 0.5s;
+    border-radius: 25px;
+    background-color: #8bd976;
+    border: 5px solid #8bd976;
+    font-size: 17px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Overpass";
+    text-decoration: none;
+}
+
+.featured-desc a:hover {
+    color: #8bd976;
+    background-color: transparent;
+}
+
+.featured-date {
+    display: flex;
+    align-items: center;
+}
+
+.featured-date time {
+    font-size: 35px;
+    color: #8bd876;
+    font-weight: 400;
+    font-family: "Overpass";
+    text-align: left;
+}
+
+.our_shows {
+    display: flex;
+    background: url(/img/bg_shows.jpg);
+    background-size: cover;
+    padding: 160px 0;
+}
+
+.year {
+    padding-bottom: 70px;
+    font-size: 35px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Overpass";
+    text-align: center;
+}
+
+.our_shows h2 {
+    padding-bottom: 30px;
+    font-size: 79px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Overpass";
+    text-align: center;
+}
+
+.our_shows time {
+    font-size: 35px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Overpass";
+    text-align: left;
+}
+
+.time-desc {
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    font-weight: 300;
+    font-family: "Overpass";
+    text-align: left;
+}
+
+.buy_tickets {
+    display: inline-block;
+    padding: 5px 7px;
+    border-radius: 20px;
+    background-color: #000000;
+    border: 3px solid #8bd976;
+    font-size: 17px;
+    line-height: 22px;
+    color: #8bd976;
+    font-weight: 400;
+    font-family: "Overpass";
+    text-align: center;
+    text-decoration: none;
+}
+
+.shop {
+    display: flex;
+    background: url(/img/bg_shop.jpg);
+    background-size: cover;
+}
+
+.shows {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 31px;
+}
+
+.shows div {
+    width: 30%;
+}
+
+.shows p {
+    margin-bottom: 20px;
+}
+
+.merch {
+    padding-top: 113px;
+    font-size: 79px;
+    color: #8bd876;
+    font-weight: 400;
+    font-family: "Overpass";
+    text-align: center;
+}
+
+.merches {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 111px;
+    padding-bottom: 125px;
+}
+
+.merches p {
+    font-size: 35px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Overpass";
+    text-align: left;
+}
+
+.merches a {
+    padding: 4px;
+    border-radius: 17px;
+    background-color: #000000;
+    border: 3px solid #000000;
+    font-size: 17px;
+    color: #8bd976;
+    font-weight: 400;
+    font-family: "Overpass";
+    text-align: right;
+    text-decoration: none;
+}
+
+.text {
+    margin: 0 auto 66px;
+    width: 45%;
+    font-size: 14px;
+    color: #e5e5e5;
+    font-weight: 300;
+    font-family: "Overpass";
+    text-align: center;
+}
+
+.merches figure {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+.merches figcaption {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #8bd976;
+    padding: 40px 30px;
+}
+
+footer {
+    padding: 100px 0 57px;
+    background-color: #8bd976;
+}
+
+.under-desc {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 37px;
+}
+
+.company {
+    font-size: 35px;
+    font-weight: 400;
+    font-family: "Overpass";
+    text-align: left;
+    margin-bottom: 17px;
+}
+
+.the_company li {
+    list-style: none;
+    list-style: none;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+    font-weight: 300;
+    font-family: "Overpass";
+}
+
+.cookies {
+    font-size: 17px;
+    line-height: 22px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Overpass";
+}
+
+.our_artists li {
+    list-style: none;
+    list-style: none;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+    font-weight: 300;
+    font-family: "Overpass";
+}
+
+.legal li {
+    list-style: none;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+    font-weight: 300;
+    font-family: "Overpass";
+}
+
+@media screen and (max-width: 1360px) {
+    .start {
+        padding: 150px 0;
+    }
+
+    .start .wrapper {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        row-gap: 30px;
+    }
+
+    .wrapper {
+        width: 90%;
+    }
+
+    .invitation,
+    .invitation-img {
+        width: 45%;
+    }
+
+    .invitation-img img {
+        width: 100%;
+        max-height: 500px;
+    }
+
+    .data {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .invitation-data {
+        width: 20%;
+    }
+
+    .featured-content {
+        align-items: center;
+    }
+
+    .featured-content img {
+        max-height: 500px;
+    }
+
+    .merches {
+        row-gap: 60px;
+    }
+
+    .merches figure {
+        width: 48%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    h1 {
+        font-size: 60px;
+    }
+
+    .button {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .tour {
+        background: #8bd876;
+    }
+
+    .tour .wrapper {
+        flex-direction: column;
+        row-gap: 50px;
+    }
+
+    .tour-description,
+    .artists figure,
+    .invitation-time {
+        width: 100%;
+    }
+
+    .artists {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .news .wrapper {
+        flex-direction: column;
+        row-gap: 50px;
+    }
+
+    .news-desc,
+    .news img {
+        width: 100%;
+        padding: 0;
+    }
+    
+    .featured-content{
+        margin-bottom: 30px;
+    }
+    .featured-desc h2 {
+        font-size: 60px;
+    }
+    
+    .featured-content img {
+        width: 40%;
+    }
+    
+    .merches p {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .start .wrapper{
+        justify-content: center;
+    }
+    .invitation{
+        width: 100%;
+    }
+    .button{
+        width: 45%;
+    }
+    .invitation-img{
+        width: 60%;
+    }
+    .data{
+        justify-content: center;
+    }
+    .invitation-data{
+        width: 45%;
+        text-align: center;
+    }
+    .featured-content{
+        flex-direction: column-reverse;
+    }
+    .featured-content img{
+        width: 80%;
+        margin-bottom: 30px;
+    }
+    .featured-desc{
+        width: 100%;
+    }
+    .anons p{
+        width: auto;
+        text-align: right;
+    }
+    .our_shows{
+        background: #8bd876;
+    }
+    .shows div{
+        width: 45%;
+    }
+    .merches {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .merches figure{
+        width: 80%;
+    }
+    .under-desc{
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: center;
+    }
+
+}
+
+@media screen and (max-width: 425px) {
+    body{
+        overflow-x: hidden;
+    }
+    .button{
+        width: 100%;
+    }
+    .invitation-img{
+        width: 100%;
+    }
+    .tour{
+        padding: 100px 0;
+    }
+    .nutshell, 
+    .news-desc h2,
+    .our_shows h2,
+    .the_top_artists h2{
+        font-size: 60px;
+    }
+    .the_top_artists p{
+        width: 100%;
+    }
+    .artists{
+        width: 100%;
+    }
+    .artists figcaption{
+        flex-direction: column;
+    }
+    .news-desc a{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .tickets,
+    .learn_more{
+        margin-right: 0;
+    }
+    .shows div{
+        width: 100%;
+    }
+    .merch,
+    .featured-desc h2,
+    .our_shows h2,
+    .nutshell,
+    h1,
+    .news-desc h2{
+        font-size: 45px;
+    }
+    .text{
+        width: 100%;
+    }
+    .merches p{
+        font-size: 30px;
+    }
+    .merches figcaption{
+        flex-direction: column;
+    }
+    .under-desc{
+        text-align: center;
+        flex-direction: column;
+    }
+    .company{
+        text-align: center;
+    }
+}
+@media screen and (max-width: 320px) {
+    
+}
