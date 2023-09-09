@@ -5,7 +5,7 @@
     font-family: 'Overpass', sans-serif;
 }
 .start {
-    background-image: url(/img/Background_stars.jpg);
+    background-image: url(../img/Background_stars.jpg);
     background-size: cover;
     padding-top: 256px;
     padding-bottom: 305px;
@@ -99,7 +99,7 @@ h1 {
 
 .tour {
     padding: 200px 0;
-    background: url(/img/Background_green.png);
+    background: url(../img/Background_green.png);
 }
 
 .tour .wrapper {
@@ -134,7 +134,7 @@ h1 {
 }
 
 .top_artists {
-    background: url(/img/bg_top_artists.jpg);
+    background: url(../img/bg_top_artists.jpg);
     background-size: cover;
     padding: 178px 0;
 }
@@ -204,7 +204,7 @@ h1 {
 }
 
 .news {
-    background: url(/img/green_background.png);
+    background: url(../img/green_background.png);
     background-size: cover;
     padding: 186px 0;
 }
@@ -268,7 +268,7 @@ h1 {
 
 .featured {
     padding: 92px 0;
-    background: url(/img/bg_shop.jpg);
+    background: url(../img/bg_shop.jpg);
     background-size: cover;
 }
 
@@ -338,7 +338,7 @@ h1 {
 
 .our_shows {
     display: flex;
-    background: url(/img/bg_shows.jpg);
+    background: url(../img/bg_shows.jpg);
     background-size: cover;
     padding: 160px 0;
 }
@@ -395,7 +395,7 @@ h1 {
 
 .shop {
     display: flex;
-    background: url(/img/bg_shop.jpg);
+    background: url(../img/bg_shop.jpg);
     background-size: cover;
 }
 
